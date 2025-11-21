@@ -20,7 +20,7 @@ lang: ''
 
 ## 1. 数组/矩阵创建
 
-```Python
+```python
 import numpy as np
 
 # 一维数组
