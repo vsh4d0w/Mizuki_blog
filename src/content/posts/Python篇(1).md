@@ -1,5 +1,5 @@
 ---
-title: Python篇(1)
+title: python篇(1)
 published: 2025-11-20
 description: 'python基础，遇到就补'
 image: ''
@@ -76,7 +76,7 @@ print(arr_7)
 
 ## 2. 获得数组属性
 
-```Python
+```python
 import numpy as np
 """
 [[ 1.  2.  3.  4.]
@@ -105,7 +105,7 @@ print(arr.dtype)
 
 和普通python的列表索引切片没区别
 
-```Python
+```python
 import numpy as np
 
 """
@@ -131,7 +131,7 @@ print(arr[1:4])
 
 ### 二维/多维数组索引
 
-```Python
+```python
 import numpy as np
 
 """
@@ -171,7 +171,7 @@ print(arr[0:2,0:2])
 
 ### 逐元素计算
 
-```Python
+```python
 import numpy as np
 
 arr_1 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
@@ -246,7 +246,7 @@ $$
 C_{ij} = A_{i1} B_{1j} + A_{i2} B_{2j} + A_{i3} B_{3j}
 $$
 
-```Python
+```python
 import numpy as np
 
 arr_1 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
@@ -275,7 +275,7 @@ print(mul_result2)
 
 ## 5. 统计函数
 
-```Python
+```python
 import numpy as np
 
 arr = np.array([[1, 2, 3, 4, 5],
@@ -335,7 +335,7 @@ $$
 
 ## 6. 数组变形拼接
 
-```Python
+```python
 import numpy as np
 
 # 拆分， 同样可以用来行向量转为列向量(1, -1) -> (-1, 1)
@@ -365,7 +365,7 @@ axis=1 按列拼接(左右),等价于 np.hstack((arr_2, arr_3))
 
 ## 7. 过滤元素
 
-```Python
+```python
 import numpy as np
 
 arr = np.array([1,2,3,4,5,6,7,8])
@@ -499,7 +499,7 @@ if check != 0:
 
 ## Series数组 - 一维带标签数组
 
-```Python
+```python
 import pandas as pd
 # 从列表创建Series数组 不指定标签 标签默认为角标
 s1 = pd.Series([1,True,3.14,"Hello"])
@@ -535,7 +535,7 @@ dtype: int64
 
 ## DataFrame - 二维表格型数据结构
 
-```Python
+```python
 import pandas as pd
 
 # 从字典创建DataFrame
@@ -581,7 +581,7 @@ print(df2)
 - 右连接：返回右 DataFrame 的所有行，以及左 DataFrame 中匹配的行，若左表无匹配则用 **NaN** 填充。
 - 外连接：返回两个 DataFrame 中所有行，无匹配的位置用 **NaN** 填充。
 
-```Python
+```python
 import pandas as pd
 
 df1 = pd.DataFrame(
