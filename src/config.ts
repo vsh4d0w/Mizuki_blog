@@ -294,11 +294,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:bilibili",
 			url: "https://space.bilibili.com/399150502?spm_id_from=333.1007.0.0",
 		},
-		// {
-		// 	name: "Gitee",
-		// 	icon: "mdi:git",
-		// 	url: "https://gitee.com/matsuzakayuki",
-		// },
+		{
+			name: "telegram",
+			icon: "fa6-brands:telegram",
+			url: "https://t.me/vSh4d0w",
+		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
